@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemrograman Web</title>
+</head>
+<body style="margin: 20px; border: 1px solid black;">
+        <p> --- HEADING --- </p>
+        <h1>Heading 1 : Pemrograman Web</h1>
+        <h2>Heading 2 : Pemrograman Web</h2>
+        <h3>Heading 3 : Pemrograman Web</h3>
+        <h4>Heading 4 : Pemrograman Web</h4>
+        <h5>Heading 5 : Pemrograman Web</h5>
+        <h6>Heading 6 : Pemrograman Web</h6>
+
+
+        <p> --- PARAGRAF --- </p>
+        <p>Ini adalah paragraf</p>
+
+        <p> --- HYPERLINK --- </p>
+        <p>Contoh : <a href="https://unsoed.ac.id/id/identitas">Identitas UNSOED</a></p>
+        
+        <p> --- IMAGE --- </p>
+        <img src="Logo-UNSOED.png" alt="Logo UNSOED" style="width: 70px; height:70px">
+        <br>
+        
+        <p> --- FORMAT TEKS --- </p>
+        <b>Teks ini dicetak tebal</b><br>
+        <i>Teks ini dicetak miring</i><br>
+        <u>Teks ini dicetak bergaris bawah</u><br>
+
+        <p> --- MARQUEE --- </p>
+        <marquee direction="left">Tulisan ini bisa bergerak dari kanan</marquee>
+        <marquee direction="right">Tulisan ini bisa bergerak dari kiri</marquee>
+        <br>
+
+        <p> --- GARIS HORIZONTAL --- </p>
+        <hr color="black">
+        
+        <p> --- TEXT COLOR --- </p>
+        <p style="color:red;">Tulisan ini berwarna merah.</p>
+        <p style="color:blue;">Tulisan ini berwarna biru.</p>
+
+        <p> --- FORM --- </p>
+        <form action="">
+            <table>
+                <tr>
+                    <td>
+                        <label>Nama</label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="text" name="nama" placeholder="Nama"><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Email</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input type="email" name="email" placeholder="E-mail@gmail.com"><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Password</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input type="password" name="pw" placeholder="Password"><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Tanggal Lahir</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input type="date" name="tgl"><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>NIM ke-</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input type="number" name="nim" min="0" value="0"><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Foto</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input type="file" name="gambar" ><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Jenis Kelamin</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="kelamin" value="laki" checked>Laki-laki
+                        <input type="radio" name="kelamin" value="perempuan">Perempuan<br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Hobi</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox" name="hobi" value="Renang">Renang
+                        <input type="checkbox" name="hobi" value="Catur">Catur
+                        <input type="checkbox" name="hobi" value="Basket">Basket
+                        <input type="checkbox" name="hobi" value="Futsal">Futsal
+                        <input type="checkbox" name="hobi" value="Lari">Lari<br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Tempat tinggal</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <select name="tempat">
+                            <option value="">Pilih</option>
+                            <option value="kos">Kos</option>
+                            <option value="rumah">Rumah</option>
+                            <option value="kontrakan">Kontrakan</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Alamat</label>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <textarea cols="20" rows="3" placeholder="Isi alamat"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Rate Gedung FT (1-100)</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="range" name="rate" min="0" max="100">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center">
+                        <input type="submit" name="simpan" value="Submit" onclick="alert('Data tersimpan')">
+                    </td>
+                    <td colspan="2">
+                        <input type="reset" name="reset" value="Reset" onclick="alert('Data telah direset')">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+
+</body>
+</html>
